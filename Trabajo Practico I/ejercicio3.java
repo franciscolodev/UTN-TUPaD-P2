@@ -14,11 +14,11 @@ public class ejercicio3 {
         System.out.print("Ingrese su altura: ");
         double altura = Double.parseDouble(input.nextLine());
 
-        System.out.print("¿Sos estudiante?: ");
+        System.out.print("¿Sos estudiante? (true o false): ");
         boolean estudiante = Boolean.parseBoolean(input.nextLine());
 
         System.out.println("Nombre: " + nombre);
-        System.out.println("Edad: " + edad);
+        System.out.println("Edad: " + edad +" años");
         System.out.println("Altura: " + altura + " m");
         System.out.println("¿Sos estudiante?: " + estudiante);
     }
